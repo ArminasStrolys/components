@@ -1,0 +1,27 @@
+.navigation {
+  display: flex;
+  margin-left: 5%;
+}
+
+.navigation__item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-wrapper {
+  /* border: 1px solid gray; */
+  padding: 5%;
+  margin: 0 5%;
+}
+
+.active {
+  font-weight: bold;
+  color: rgb(88, 0, 0);
+}
